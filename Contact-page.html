@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact-page</title>
+
+    <style>
+        body {
+            background-color: white;
+        }
+
+        div.page {
+            margin: 0px 85px 0px 85px;
+            font-size: 23px;
+        }
+
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0px;
+            padding: 0x;
+        }
+
+        nav {
+            width: 1130px;
+            height: 120px;
+            background-color: maroon;
+            border-radius: 20px;
+        }
+
+        div nav ul li {
+            margin: 10px 0px 0px 0px;
+            display: inline-block;
+            line-height: 130px;
+            vertical-align: middle;
+            padding: 0px 20px 0px 20px;
+        }
+
+
+
+        img.logo {
+            width: 230px;
+            height: 100px;
+
+        }
+
+
+        nav ul li a {
+            text-decoration: none;
+            color: goldenrod;
+            font-size: 25px;
+
+        }
+
+        .mid-div {
+            margin: 20px;
+            width: 1090px;
+        }
+
+        div.last {
+            width: 1130px;
+            background-color: maroon;
+            color: goldenrod;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .input {
+            display: inline-block;
+            line-height: 25px;
+            font-size: 20px;
+        }
+
+        .name-email {
+            padding: 0px 6px;
+        }
+
+        .select-list {
+            text-align: center;
+            line-height: 21px;
+            font-size: 20px;
+            border: 5px solid maroon;
+            border-radius: 10px;
+            color: maroon;
+            background-color: lightyellow;
+        }
+
+        .submit-button {
+            height: 40px;
+            width: 200px;
+            border: 5px solid maroon;
+            border-radius: 12px;
+            color: maroon;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 3px;
+            margin: 10px;
+            background-color: lightyellow;
+        }
+
+        .map {
+            border: 2px solid maroon;
+            border-radius: 20px;
+        }
+
+        .radio {
+            margin: 0px 5px 0px 20px;
+            border: 5px solid maroon;
+        }
+
+        fieldset {
+            border-color: maroon;
+            border-radius: 20px;
+        }
+
+
+
+        textarea {
+            border: 2px solid maroon;
+        }
+
+        h3 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+    <div class="page">
+        <nav>
+
+            <ul>
+                <li> <a href="#"><img src="logo.png" class="logo"> </a> </li>
+                <li> <a href="#" class="head"> HOME </a> </li>
+                <li> <a href="#" class="head"> ABOUT </a> </li>
+                <li> <a href="#" class="head"> PORTFOLIO </a> </li>
+                <li> <a href="#" class="head"> CONTACT </a> </li>
+            </ul>
+        </nav>
+        <div class="mid-div">
+            <form action="">
+
+                <fieldset>
+                    <legend>
+                        <h3> Your Details: </h3>
+                    </legend>
+                    <br>
+                    <p>
+                        <font class="name-email"> Name: </font>
+                        <input type="text" name="username" placeholder="Name" class="input">
+                    </p>
+                    <br>
+                    <p>
+                        <font class="name-email"> Email: </font>
+                        <input type="email" name="email" placeholder="Email" class="input">
+                    </p>
+                    <br>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>
+                        <h3> Your Review: </h3>
+                    </legend>
+                    <br>
+                    <p>How did you hear about us?
+
+                        <select name="Listen" class="select-list">
+                            <option value="Newspaper" class="select">Newspaper</option>
+                            <option value="Internet" class="select">Internet</Option>
+                            <option value="Mobile" class="select">Mobile</option>
+                            <option value="Other" class="select">Other</option>
+                        </select>
+                    </p>
+                    <br>
+                    <br>
+                    <p class="p-radio">Would you visit again?
+                        <br>
+                        <br>
+                        <input type="radio" name="123" value="yes" class="radio"> Yes
+                        <input type="radio" name="123" value="no" class="radio"> No
+                        <input type="radio" name="123" value="Maybe" class="radio"> Maybe
+                    </p>
+                    <br>
+                    <br>
+                    <p>
+                        Comments:
+                        <br>
+                        <br>
+                        <textarea name="" id="" cols="40" rows="5"></textarea>
+                    </p>
+                    <br>
+                    <p>
+                        <input type="checkbox" name="service" value="Sign me up for email updates." class="input">
+                        Sign me up for email updates.
+                    </p>
+                    <br>
+
+                    <p>
+                        <input type="submit" name="Submit Review" value="Submit Review" class="submit-button">
+                    </p>
+
+                    <br>
+
+                </fieldset>
+
+                <br>
+
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.393319843493!2d67.03593454995067!3d24.850412751703484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33dd62e5a0743%3A0xe78fc50c62861a1b!2sAbdul%20Sattar%20Edhi%20Hockey%20Stadium!5e0!3m2!1sen!2s!4v1572548947599!5m2!1sen!2s"
+                        width="100%" height="700" frameborder="0" style="border:0;" allowfullscreen="" class="map"></iframe>
+                </div>
+                <br>
+
+            </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="last">
+            <p> Copyright © 2019. All rights reserved. </p>
+        </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
